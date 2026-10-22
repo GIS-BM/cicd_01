@@ -28,6 +28,10 @@ jobs:
           echo "Have a nice day"
           echo "Good luck"
 
+      - name: 여러 명령어 문장 작성하기
+        run: |
+          echo "test for don`t execute name"
+
       # 참고: https://docs.github.com/en/actions/learn-github-actions/variables
       - name: Github Actions 자체에 저장되어 있는 변수 사용해보기
         run: |
